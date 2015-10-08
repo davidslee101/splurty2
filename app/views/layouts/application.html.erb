@@ -30,7 +30,22 @@
   <hr />
   <br class = "clear" />
 
-<%= yield %>
+  <div class= "container">
+    <%= yield %>
+  </div>
 
+  <div class="footer">
+    <div class = "container">
+      <div class = "col-xs-6">
+        <%= link_to "This isn't enought. I need more","#", :class => 'next-quote'%>
+      </div>
+      <div class = "col-xs-6 footer-blurb">
+        Proudly hacked in Columbus by David
+        <br />
+        Want to build your own? - <a href="http://thefirehoseproject.com">Learn how to code </a>
+      </div>
+
+    </div>
+  </div>
 </body>
 </html>
